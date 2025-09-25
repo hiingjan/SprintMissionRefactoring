@@ -48,16 +48,6 @@ public class Message {
         this.updatedAt = System.currentTimeMillis();
     }
 
-    public void updateSenderId(UUID senderId) {
-        this.senderId = senderId;
-        this.updatedAt = System.currentTimeMillis();
-    }
-
-    public void updateReceiverId(UUID receiverId) {
-        this.receiverId = receiverId;
-        this.updatedAt = System.currentTimeMillis();
-    }
-
     
 
 
